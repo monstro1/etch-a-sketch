@@ -55,4 +55,5 @@ body {
 
 .filled {
 	background-color: var(--box-filled-color);
+	border-color: var(--box-filled-color);
 }
