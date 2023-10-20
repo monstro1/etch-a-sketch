@@ -5,7 +5,8 @@
 }
 
 :root {
-	--grid-size: 80vw;
+	--grid-size: 80vh;
+	--box-border-color: black;
 }
 
 html {
@@ -35,6 +36,6 @@ body {
 }
 
 .row div {
-	border:1px solid black;
+	border:1px solid var(--box-border-color);
 	flex: 1;
 }
