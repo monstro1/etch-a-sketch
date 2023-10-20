@@ -48,7 +48,7 @@ body {
 	flex: 1;
 }
 
-.row div {
+.grid-box {
 	border:1px solid var(--box-border-color);
 	flex: 1;
 }
