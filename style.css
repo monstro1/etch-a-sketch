@@ -7,6 +7,7 @@
 :root {
 	--grid-size: 80vh;
 	--box-border-color: black;
+	--box-filled-color: #333;
 }
 
 html {
@@ -38,4 +39,8 @@ body {
 .row div {
 	border:1px solid var(--box-border-color);
 	flex: 1;
+}
+
+.filled {
+	background-color: var(--box-filled-color);
 }
