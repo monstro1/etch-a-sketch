@@ -19,6 +19,6 @@ body {
 #grid-container {
 }
 
-#grid-container div {
+.row div {
 	border:1px solid black;
 }
