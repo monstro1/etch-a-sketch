@@ -7,6 +7,7 @@ function makeGrid(size) {
 		gridContainer.appendChild(rowDiv);
 		for (let j = 0; j < size; j++) {
 			let gridBox = document.createElement("div");
+			gridBox.classList.add("grid-box");
 			rowDiv.appendChild(gridBox);
 			gridBox.addEventListener("mouseover", function() {
 				gridBox.classList.add("filled");
