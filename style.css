@@ -15,3 +15,10 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+
+#grid-container {
+}
+
+#grid-container div {
+	border:1px solid black;
+}
