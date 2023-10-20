@@ -29,6 +29,11 @@ body {
 	padding: 16px;
 }
 
+#grid-btn {
+	font-size: 1.5em;
+	padding: 10px;
+}
+
 #grid-container {
 	height: var(--grid-size);
 	display: flex;
