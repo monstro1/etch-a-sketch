@@ -15,4 +15,6 @@ function makeGrid(size) {
 	}
 }
 
+const gridButton = document.querySelector("#grid-btn");
+
 makeGrid(16);
