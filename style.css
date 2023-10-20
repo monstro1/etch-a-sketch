@@ -17,7 +17,7 @@ body {
 }
 
 #grid-container {
-	height: 720px;
+	height: 80vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -25,7 +25,7 @@ body {
 }
 
 .row {
-	width: 720px;
+	width: 80vw;
 	display: flex;
 	flex: 1;
 }
