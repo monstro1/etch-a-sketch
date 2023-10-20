@@ -6,7 +6,7 @@
 
 :root {
 	--grid-size: 80vh;
-	--box-border-color: black;
+	--box-border-color: #aaa;
 	--box-filled-color: #333;
 }
 
