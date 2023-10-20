@@ -17,14 +17,20 @@ body {
 }
 
 #grid-container {
+	height: 640px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .row {
+	width: 640px;
 	display: flex;
+	flex: 1;
 }
 
 .row div {
 	border:1px solid black;
-	width: 40px;
-	height: 40px;
+	flex: 1;
 }
