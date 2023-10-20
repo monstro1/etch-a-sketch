@@ -17,4 +17,8 @@ function makeGrid(size) {
 
 const gridButton = document.querySelector("#grid-btn");
 
+gridButton.addEventListener("click", function() {
+	console.log("test");
+});
+
 makeGrid(16);
