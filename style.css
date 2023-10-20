@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--grid-size: 80vw;
+}
+
 html {
 	font-family: "DejaVu Sans", Arial, sans-serif;
 }
@@ -17,7 +21,7 @@ body {
 }
 
 #grid-container {
-	height: 80vw;
+	height: var(--grid-size);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -25,7 +29,7 @@ body {
 }
 
 .row {
-	width: 80vw;
+	width: var(--grid-size);
 	display: flex;
 	flex: 1;
 }
