@@ -23,7 +23,8 @@ gridButton.addEventListener("click", function() {
 		alert("Invalid response\nChoose a number between 4 and 100");
 		return;
 	} else {
-		console.log("received valid input");
+		gridContainer.textContent = "";
+		makeGrid(userNum);
 	}
 });
 
